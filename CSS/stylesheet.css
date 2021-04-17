@@ -1,0 +1,97 @@
+body
+{
+  background-color: #ADFF2F;
+  font-family: 'Cormorant Garamond', serif;
+  position: relative;
+}
+h1{
+    color:#808080;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+
+}
+img{
+    width: 150px;
+    border-radius: 3px solid;
+    text-align: right;
+    padding: 10px;
+    right: 0px;
+    position: absolute;
+    float: right;
+    margin: 0 0 0 15pt;
+    background-position: right top;
+
+}
+.logo-footer
+{
+    position: absolute;
+    bottom: -550px;
+    left: 50%;
+    transform: translateX(50%,-50%);
+    margin: -25px;
+    height: 50px;
+    width: 50px;
+
+}
+button
+{
+    text-decoration: none;
+    display: inline-block;
+    border:none;
+    text-align: left;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color:#4682B4;
+  
+}
+textarea
+{
+    width: 15%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+/* Desktop Version */
+@media(max-width:1000px){
+    body{
+      background-color: #E1BB47;
+      position: relative;
+      padding: 20px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    button
+    {
+       width: 30%;
+       position: relative;
+       font-size: 10px;
+    }
+  }
+  
+  /* Mobile Version */
+  @media (max-width:500px) {
+    body{
+      background-color: #639A88;
+      position: relative;
+      padding: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    button
+    {
+       width: 20%;
+       position: relative;
+       font-size: 7px;
+    }
+  }
+  
